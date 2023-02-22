@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MPA. Kepak Elang</title>
+        <link rel="icon" type="image/x-icon" href="../../assets/logo.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../../css/styles.css" rel="stylesheet" />
+        <link href="../../fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="../../datatable/datatables-bs4/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="../../datatable/datatables-responsive/css/responsive.bootstrap4.min.css">
+        <link rel="stylesheet" href="../../datatable/datatables-buttons/css/buttons.bootstrap4.min.css">
+
+    </head>
+    <body class="bg-dark" id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top"><img src="../../assets/logo.png" alt="logo" style="height: 30px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/index.html"><i class="fas fa-fw fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/database.html"><i class="fas fa-fw fa-database"></i> Database</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/https://api.whatsapp.com/send?phone=+6281359337818&text=Salam Lestari"><i class="fab fa-fw fa-whatsapp"></i> Whatsapp</a></li>
+						<li class="nav-item"><a class="nav-link" href="/about.html"><i class="fas fa-fw fa-book"></i> Pengantar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- About section-->
+        <section class="bg-light" id="home">
+            <div class="container px-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><b>Job Description</b></li>
+                    </ol>
+                </nav>
+                <hr>
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-ketua-tab" data-bs-toggle="pill" data-bs-target="#pills-ketua" type="button" role="tab" aria-controls="pills-ketua" aria-selected="true">Ketua Umum</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-sekretaris-tab" data-bs-toggle="pill" data-bs-target="#pills-sekretaris" type="button" role="tab" aria-controls="pills-sekretaris" aria-selected="false">Sekretaris</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-bendahara-tab" data-bs-toggle="pill" data-bs-target="#pills-bendahara" type="button" role="tab" aria-controls="pills-bendahara" aria-selected="false">Bendahara</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-ketua1-tab" data-bs-toggle="pill" data-bs-target="#pills-ketua1" type="button" role="tab" aria-controls="pills-ketua1" aria-selected="false">Ketua 1</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-ketua2-tab" data-bs-toggle="pill" data-bs-target="#pills-ketua2" type="button" role="tab" aria-controls="pills-ketua2" aria-selected="false">Ketua 2</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-humas-tab" data-bs-toggle="pill" data-bs-target="#pills-humas" type="button" role="tab" aria-controls="pills-humas" aria-selected="false">HUMAS</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-inventaris-tab" data-bs-toggle="pill" data-bs-target="#pills-inventaris" type="button" role="tab" aria-controls="pills-inventaris" aria-selected="false">Inventaris</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-diklat-tab" data-bs-toggle="pill" data-bs-target="#pills-diklat" type="button" role="tab" aria-controls="pills-diklat" aria-selected="false">DIKLAT</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-litbang-tab" data-bs-toggle="pill" data-bs-target="#pills-litbang" type="button" role="tab" aria-controls="pills-litbang" aria-selected="false">LITBANG</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-ketua" role="tabpanel" aria-labelledby="pills-ketua-tab">
+                                Ketua
+                            </div>
+                            <div class="tab-pane fade" id="pills-sekretaris" role="tabpanel" aria-labelledby="pills-sekretaris-tab">
+                                Sekretaris
+                            </div>
+                            <div class="tab-pane fade" id="pills-bendahara" role="tabpanel" aria-labelledby="pills-bendahara-tab">
+                                Bendahara
+                            </div>
+                            <div class="tab-pane fade" id="pills-ketua1" role="tabpanel" aria-labelledby="pills-bendahara-tab">
+                                Ketua 1
+                            </div>
+                            <div class="tab-pane fade" id="pills-ketua2" role="tabpanel" aria-labelledby="pills-bendahara-tab">
+                                Ketua 2
+                            </div>
+                            <div class="tab-pane fade" id="pills-humas" role="tabpanel" aria-labelledby="pills-humas-tab">
+                                HUMAS
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-inventaris" role="tabpanel" aria-labelledby="pills-inventaris-tab">
+                                Inventaris
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-diklat" role="tabpanel" aria-labelledby="pills-diklat-tab">
+                                DIKLAT
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-litbang" role="tabpanel" aria-labelledby="pills-litbang-tab">
+                                LITBANG
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; LITBANG MPA. Kepak Elang 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="../../js/jquery-3.6.3.min.js"></script>
+		<script src="../../js/inisialisasi.js"></script>
+        <!-- Core theme JS-->
+        <script src="../../js/scripts.js"></script>
+    </body>
+</html>

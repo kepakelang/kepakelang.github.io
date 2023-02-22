@@ -51,7 +51,6 @@
                                     <thead>
                                         <tr>
                                             <th>No</th>
-                                            <th>Aksi</th>
                                             <th>No surat</th>
                                             <th>Tujuan</th>
                                             <th>Tentang</th>
@@ -121,13 +120,6 @@
                         columns: [
                             { "render": function ( data, type, row ) { // Tampilkan kolom aksi
                                     var html  = ""
-                                    return html
-                                }
-                            },
-                            { "render": function ( data, type, row ) { // Tampilkan kolom aksi
-                                    var html =  "<div style='display: flex; flex-direction: row;'>"
-                                        html += "<a href='#' class='btn btn-success mb-2 btn-sm' data-original-title='Edit'>Lihat</a>"
-                                        html += "</div>"
                                     return html
                                 }
                             },
