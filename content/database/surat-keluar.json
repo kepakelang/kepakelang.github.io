@@ -1,28 +1,36 @@
 {
     "data": [
         {
-            "id": "SUP001",
-            "no_surat": "001/S.UP/P-XXII/KE/02/23",
+            "id": "1",
+            "no_surat": "001/S.UP/P-XX/KE/02/23",
             "tujuan": "Sdr Saleh Abdullah Alkatiri",
             "tentang": "Permohonan Menjadi Pemateri",
             "lampiran": "-",
             "tanggal": "15/02/2023"
         },
         {
-            "id": "SUD001",
-            "no_surat": "001/S.UD/P-XXII/KE/02/23",
+            "id": "2",
+            "no_surat": "001/S.UD/P-XX/KE/02/23",
             "tujuan": "Anggota Muda MPA. Kepak Elang",
             "tentang": "Undangan Pelatihan Organisasi",
             "lampiran": "-",
             "tanggal": "15/02/2023"
         },
         {
-            "id": "SUD002",
-            "no_surat": "002/S.UD/P-XXII/KE/02/23",
+            "id": "3",
+            "no_surat": "002/S.UD/P-XX/KE/02/23",
             "tujuan": "Anggota MPA. Kepak Elang",
             "tentang": "Undangan Rapat Anggota",
             "lampiran": "-",
             "tanggal": "21/02/2023"
+        },
+		{
+            "id": "4",
+            "no_surat": "001/SJ/P-XX/KE/02/23",
+            "tujuan": "Instansi Terkait",
+            "tentang": "Surat Jalan",
+            "lampiran": "1",
+            "tanggal": "23/02/2023"
         }
     ]
 }

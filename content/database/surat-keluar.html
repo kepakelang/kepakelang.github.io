@@ -140,6 +140,7 @@
                         buttons: [
                             'copy', 'csv', 'excel', 'print'
                         ],
+						order: [[0, 'asc']],
                         rowCallback: function (row, data) {
                             $(row).addClass(data.status_deleted);
                         }
